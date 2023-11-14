@@ -318,8 +318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a577085241286d14c80c24c6c90de14b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controladorDeDisparo: {fileID: 10097869}
-  bala: {fileID: 1394787117919273500, guid: f4420a7b6a97b2b41bb97dc2508d5265, type: 3}
+  playerRenderer: {fileID: 26083180}
+  weaponSpawnL: {fileID: 10097869}
+  weaponSpawnR: {fileID: 0}
+  weaponD: {fileID: 1394787117919273500, guid: f4420a7b6a97b2b41bb97dc2508d5265, type: 3}
+  weaponI: {fileID: 2926853175260048319, guid: e00d17e7328f8904eb03511e7ef89352, type: 3}
 --- !u!1 &1019925296
 GameObject:
   m_ObjectHideFlags: 0

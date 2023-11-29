@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -10,12 +11,17 @@ public class Movement : MonoBehaviour
     private bool isGrounded;
     private int jumpsRemaining = 2;
     public SpriteRenderer PlayerRenderer;
+    private BoxCollider2D boxCollider2D;
+    public Animator animator;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
         rbPlayer = GetComponent<Rigidbody2D>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<Collider2D>());
     }
 
     // Update is called once per frame
@@ -41,8 +47,12 @@ public class Movement : MonoBehaviour
             rbPlayer.velocity = new Vector2(rbPlayer.velocity.x, 0);
             rbPlayer.AddForce(Vector2.up * saltoFuerza, ForceMode2D.Impulse);
             jumpsRemaining--;
+            animator.SetBool("EstaSaltando", isGrounded ==false);
 
         }
+
+        float rotationAngle = transform.rotation.eulerAngles.x;
+        boxCollider2D.transform.rotation = Quaternion.Euler(0f, 0f, rotationAngle);
        
 
     }

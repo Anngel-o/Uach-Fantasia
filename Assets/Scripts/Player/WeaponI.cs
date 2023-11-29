@@ -10,7 +10,10 @@ public class WeaponI : MonoBehaviour
     public SpriteRenderer playerRenderer;
 
     float position;
-
+    private void Start()
+    {
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
+    }
     private void Update()
     {
 

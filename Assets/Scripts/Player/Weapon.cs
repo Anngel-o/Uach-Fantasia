@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -11,7 +12,11 @@ public class Weapon : MonoBehaviour
     public SpriteRenderer playerRenderer;
    
     float position;
+    private void Start()
+    {
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
 
+    }
     private void Update()
     {  
       
@@ -19,6 +24,8 @@ public class Weapon : MonoBehaviour
 
 
     }
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,6 +35,7 @@ public class Weapon : MonoBehaviour
             Destroy(gameObject);
 
         }
+        
     }
 
     private void Awake()

@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Caminar_Curie01_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 432
+        width: 106
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ee81ac441cb8419cbc6f31b8937cc
+      internalID: -1871410533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 427
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e328202765090468712efe559c91c3
+      internalID: 676533083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 427
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb81d2a62e9486148bdd9c6c637ef7ce
+      internalID: -371558661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 428
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5c56dc9dac6f4478d5f88001fc192b
+      internalID: 1251468294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_4
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 428
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bfcd557eb0a764eaca6dc5382cc214
+      internalID: 1451294925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 268
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba936be34bb14ce4987b5e3fb644f1c0
+      internalID: -1003852363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 267
+        width: 90
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a7d80be887b6a4491f2803fdf75d72
+      internalID: -1348030063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 264
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514ef6510a79cf542bdb39a20ef0839f
+      internalID: -147172765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 265
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0eb512d1d4c7a419483dcfeb773bcb
+      internalID: 1111135220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_9
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 270
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b18792c60792d643bb7393fa68ad65b
+      internalID: -605199370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 108
+        width: 84
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4257a481ee43643bbd819d0a3b4cc9
+      internalID: -353371361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 105
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d8f60ab08e9614da30e9130ecd7a72
+      internalID: 659366673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 107
+        width: 91
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe9159579fe3b47805a58a005184cf
+      internalID: 611942600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_13
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 109
+        width: 87
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbb6ebe0850bbe4bbc3642d6a0b37f8
+      internalID: -1251642783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_Curie01_14
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 114
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bb76a5907efb0478db61118b690f72
+      internalID: -953434337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +441,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Caminar_Curie01_4: 1451294925
+      Caminar_Curie01_9: -605199370
+      Caminar_Curie01_8: 1111135220
+      Caminar_Curie01_12: 611942600
+      Caminar_Curie01_11: 659366673
+      Caminar_Curie01_13: -1251642783
+      Caminar_Curie01_14: -953434337
+      Caminar_Curie01_5: -1003852363
+      Caminar_Curie01_10: -353371361
+      Caminar_Curie01_2: -371558661
+      Caminar_Curie01_7: -147172765
+      Caminar_Curie01_1: 676533083
+      Caminar_Curie01_6: -1348030063
+      Caminar_Curie01_0: -1871410533
+      Caminar_Curie01_3: 1251468294
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,9 +11,8 @@ public class PlayerTrigger : MonoBehaviour
     public Transform weaponSpawnR;
     public GameObject weaponD;
     public GameObject weaponI;
-    private Vector2 playerDirection;
-    private int weaponSpeed;
     float horizontalInput = -1;
+    public Animator animator;
 
     private void Update()
     {
@@ -33,13 +33,18 @@ public class PlayerTrigger : MonoBehaviour
             FireBullet(horizontalInput);
         }
 
-
+        
     }
 
-
+    private void ResetAttackStatus()
+    {
+        animator.SetBool("EstaAtacando", false);
+    }
 
     private void FireBullet(float horizontal)
     {
+        animator.SetTrigger("Atacar");
+        //animator.SetBool("EstaAtacando", true);
         if (horizontal > 0)
         {
             Instantiate(weaponD, weaponSpawnL.position, weaponSpawnL.rotation);
@@ -48,6 +53,7 @@ public class PlayerTrigger : MonoBehaviour
         {
             Instantiate(weaponI, weaponSpawnL.position, weaponSpawnL.rotation);
         }
+        //Invoke("ResetAttackStatus", 1f);
     }
 
     private void FireBulletI()

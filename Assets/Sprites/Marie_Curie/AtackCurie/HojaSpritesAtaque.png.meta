@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 104, z: 206, w: 97}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1451
+        width: 150
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cc56c5b6df15448a428c3bcba87c91
+      internalID: -1734500601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1448
+        width: 135
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817142e9786c42447bc85e9e1a97f378
+      internalID: 1834120981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_2
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1448
+        width: 150
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae5e3165ca84844914f6dd1caa6cd1
+      internalID: -732377871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_3
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1448
+        width: 149
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595b0bcbf36d7284bb14ae672d17bdbb
+      internalID: 1257884251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_4
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1448
+        width: 135
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe9f2853a2b77a40bd7f0999e2500ce
+      internalID: -1498353760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1006
+        width: 195
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b937908c073f42acb615f32ed3650
+      internalID: -421041598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1006
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68458afdf30b0c4ca0e7b798198cdf6
+      internalID: -1862360938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1130
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca27e5befb44cd499bf6c22325e62c8
+      internalID: -1097130244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1006
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341a54933c527a74986a4abab8a9efca
+      internalID: -714055502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_9
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1136
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf6fb166c8158b41965d2da845542aa
+      internalID: -1405099826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_10
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1006
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24540d076a0509f489a41bc74621657d
+      internalID: 889385760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_11
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1130
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc767065593f0b240970794dab64b6a1
+      internalID: -467668005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_12
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1006
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdb9bd54e5e47b47990fb54e083d890
+      internalID: 2130969821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_13
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1136
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb4d99a2e978347bc4791ba463ab73
+      internalID: -1678639827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 558
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52003eaaae841549838baa9653b40a4
+      internalID: -593102645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 558
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde5e193519eec94cabf39f500969cd8
+      internalID: -1507258410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_16
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 558
+        width: 180
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb4abdf84517f74cbbad52323dfaffb
+      internalID: 907335279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_17
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 558
+        width: 187
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e6293551db833409ef8fd2ade0a506
+      internalID: 1872021985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_18
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 555
+        width: 144
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38607ba0ec5c8734192a887f82ce0df4
+      internalID: 936482524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_19
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 748
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb54ae226604347aad93a6634c6d56
+      internalID: -1247694490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 677
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c2de9b2ed76d64fac7cfe84eb00b05
+      internalID: 318678998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 677
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2465d0d5c0203047b16e72eccebe2bb
+      internalID: -770607988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_22
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 737
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9604476d10e0fe046ba86384f926aceb
+      internalID: -649640875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 682
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a83bbd21a0724a8134aca47dc05df
+      internalID: 58336507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_24
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 688
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd842948e00ee4899b8028bbdbe95f
+      internalID: 1333805849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_25
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 714
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcfced5c900196449e3f3a0c058da7d
+      internalID: -608336916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_26
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 700
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961296b4fc7937844a2a93470272b331
+      internalID: -682512290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_27
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 686
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dbed954c6b7e24eb72c88f1a1af4b5
+      internalID: 1107977287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_28
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 674
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6de1e8179dfad4fbdc4914dd0bb009
+      internalID: 1681163454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_29
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 678
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a76c58945967f4185402011382623b
+      internalID: 124890509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_30
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 662
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9856411c7cf95054fa41cc23060c3b0b
+      internalID: -1861895807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_31
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 656
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92faed64f589e5b47a5be7aaa6a09859
+      internalID: 1332962123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 107
+        width: 144
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f45b3b04bc61b4fb624c3488ae3cd0
+      internalID: 810826309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 313
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a62898aaa90f5468cfea03199cf63a
+      internalID: -359701322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 107
+        width: 126
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7bbaf8959e8c4fb57714c0f7740e3
+      internalID: 1441925181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 294
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c2f1eb56a615a479f16b2663e4da88
+      internalID: 1766538037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 280
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e703e6e8e940544959f973c4669f30
+      internalID: -1320398602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_37
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 268
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c39e59032df0c24c81c530a7365d792
+      internalID: -1237812980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 270
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b02866bc7869d418cc0314a223da0b
+      internalID: -1464480480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 253
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ea433ce1c5cb4fb21097302c7f41c
+      internalID: 1611321238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_40
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 234
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ce78a5b92bc1044b7eaa756297fc0a
+      internalID: -1095542898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 240
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb455cbde10c16643830db69580c3a05
+      internalID: -1329378233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 222
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd71551aa2923a49a3ef342b1e0e475
+      internalID: 2062273746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSpritesAtaque_43
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 202
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e58e67f0bbdfc4aa5b98f0255ef1d7
+      internalID: 486097573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1050,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HojaSpritesAtaque_26: -682512290
+      HojaSpritesAtaque_7: -1097130244
+      HojaSpritesAtaque_34: 1441925181
+      HojaSpritesAtaque_9: -1405099826
+      HojaSpritesAtaque_25: -608336916
+      HojaSpritesAtaque_33: -359701322
+      HojaSpritesAtaque_21: -770607988
+      HojaSpritesAtaque_38: -1464480480
+      HojaSpritesAtaque_14: -593102645
+      HojaSpritesAtaque_0: -1734500601
+      HojaSpritesAtaque_41: -1329378233
+      HojaSpritesAtaque_24: 1333805849
+      HojaSpritesAtaque_16: 907335279
+      HojaSpritesAtaque_23: 58336507
+      HojaSpritesAtaque_29: 124890509
+      HojaSpritesAtaque_20: 318678998
+      HojaSpritesAtaque_22: -649640875
+      HojaSpritesAtaque_30: -1861895807
+      HojaSpritesAtaque_3: 1257884251
+      HojaSpritesAtaque_8: -714055502
+      HojaSpritesAtaque_36: -1320398602
+      HojaSpritesAtaque_39: 1611321238
+      HojaSpritesAtaque_12: 2130969821
+      HojaSpritesAtaque_40: -1095542898
+      HojaSpritesAtaque_10: 889385760
+      HojaSpritesAtaque_11: -467668005
+      HojaSpritesAtaque_1: 1834120981
+      HojaSpritesAtaque_4: -1498353760
+      HojaSpritesAtaque_28: 1681163454
+      HojaSpritesAtaque_13: -1678639827
+      HojaSpritesAtaque_17: 1872021985
+      HojaSpritesAtaque_32: 810826309
+      HojaSpritesAtaque_5: -421041598
+      HojaSpritesAtaque_27: 1107977287
+      HojaSpritesAtaque_15: -1507258410
+      HojaSpritesAtaque_18: 936482524
+      HojaSpritesAtaque_2: -732377871
+      HojaSpritesAtaque_19: -1247694490
+      HojaSpritesAtaque_35: 1766538037
+      HojaSpritesAtaque_31: 1332962123
+      HojaSpritesAtaque_6: -1862360938
+      HojaSpritesAtaque_43: 486097573
+      HojaSpritesAtaque_42: 2062273746
+      HojaSpritesAtaque_37: -1237812980
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

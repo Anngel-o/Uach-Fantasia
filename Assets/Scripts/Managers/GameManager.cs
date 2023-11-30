@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private float maxTime;
+    [SerializeField] private Slider slider;
     private float currentTime;
     private bool activateTime = false;
 
@@ -23,6 +25,10 @@ public class GameManager : MonoBehaviour
 
     private void ChangeCounter() {
         currentTime -= Time.deltaTime;
+        if (currentTime >= 0) {
+            slider.value = currentTime;
+        }
+
         if (currentTime <= 0) {
             Debug.Log("Derrota");
             DesactivateTemporizer();
@@ -35,6 +41,7 @@ public class GameManager : MonoBehaviour
 
     public void ActivateTemporizer() {
         currentTime = maxTime;
+        slider.maxValue = maxTime;
         ChangeTemporizer(true);
     }
 

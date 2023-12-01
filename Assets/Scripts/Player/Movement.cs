@@ -47,7 +47,15 @@ public class Movement : MonoBehaviour
             rbPlayer.velocity = new Vector2(rbPlayer.velocity.x, 0);
             rbPlayer.AddForce(Vector2.up * saltoFuerza, ForceMode2D.Impulse);
             jumpsRemaining--;
-            animator.SetBool("EstaSaltando", isGrounded ==false);
+            if (jumpsRemaining == 1)
+            {
+                animator.SetTrigger("Salto");
+            }
+            
+            else if (jumpsRemaining == 0)
+            {
+                animator.SetTrigger("DobleSalto");
+            }
 
         }
 

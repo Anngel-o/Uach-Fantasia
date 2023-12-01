@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 3c97d833dfd05d0439cfd8ee9e83812d
-=======
-guid: 1d231ad41a3e15a46a23d7d864743dc4
->>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,16 +38,16 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,15 +62,15 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,31 +94,415 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1743
+        width: 151
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f546bd8997508d447be4554a2a7df7c7
+      internalID: -2071146573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1743
+        width: 152
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bbb6d6e70069340bc253d03227d0f3
+      internalID: -258069979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1743
+        width: 153
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda227a507f74194abb5ea5dfed7eda2
+      internalID: 529346988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_3
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1743
+        width: 153
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e10b57ce0794394b95b8576dc2c2eca
+      internalID: -651256328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_4
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1743
+        width: 153
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f734f2072c2aaf54880406a3afac1e96
+      internalID: -1450279029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_5
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1176
+        width: 128
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84defb7625f04a44e97f0dcf65d25ac2
+      internalID: 568640618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_6
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1355
+        width: 132
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4a44970e2ca214caa516a5150bfe93
+      internalID: 2032596482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_7
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1399
+        width: 144
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a8c6a2c14d24c47b964de34a2d6241
+      internalID: -1835650960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1171
+        width: 150
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bbce2f267dd9a41a4c9765982be64d
+      internalID: -1520027850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1171
+        width: 151
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0cbcaaa7c0ca8409c645c83b081baa
+      internalID: 841493987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_10
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1325
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78ebd8013add31408b754686850c78d
+      internalID: 1483951380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_11
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1298
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c2ee7c6aaba543bcf1e426a713c93
+      internalID: 921100074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 823
+        width: 145
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21de4ce643d14004fbc37a2bb14e9473
+      internalID: -1039733954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 785
+        width: 144
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214f540be9b44cd40a6beb0c24a0babe
+      internalID: -1209770954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_14
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 700
+        width: 157
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ec79b409ad436499e1bd1ec9f2fcf6
+      internalID: 1742691618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_15
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 607
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247f958d6ab45544b87ed21c4632d162
+      internalID: 752165503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_16
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 607
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad0235c588126741a00f637485e1e0c
+      internalID: -1387833102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 15
+        width: 150
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9c60781429fa34ab4c8cb9786978a2
+      internalID: -1544787852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaSaltoMarieCurie_18
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 15
+        width: 150
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022bc44c2e63fc147ab2968679a1bbd9
+      internalID: -1150368050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -133,7 +513,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HojaSaltoMarieCurie_2: 529346988
+      HojaSaltoMarieCurie_18: -1150368050
+      HojaSaltoMarieCurie_10: 1483951380
+      HojaSaltoMarieCurie_9: 841493987
+      HojaSaltoMarieCurie_14: 1742691618
+      HojaSaltoMarieCurie_5: 568640618
+      HojaSaltoMarieCurie_16: -1387833102
+      HojaSaltoMarieCurie_3: -651256328
+      HojaSaltoMarieCurie_8: -1520027850
+      HojaSaltoMarieCurie_11: 921100074
+      HojaSaltoMarieCurie_12: -1039733954
+      HojaSaltoMarieCurie_13: -1209770954
+      HojaSaltoMarieCurie_7: -1835650960
+      HojaSaltoMarieCurie_4: -1450279029
+      HojaSaltoMarieCurie_1: -258069979
+      HojaSaltoMarieCurie_0: -2071146573
+      HojaSaltoMarieCurie_15: 752165503
+      HojaSaltoMarieCurie_6: 2032596482
+      HojaSaltoMarieCurie_17: -1544787852
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

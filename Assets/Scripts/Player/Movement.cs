@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
         {
             jumpsRemaining = 2;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && jumpsRemaining > 0)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && jumpsRemaining > 0)
         {
             rbPlayer.velocity = new Vector2(rbPlayer.velocity.x, 0);
             rbPlayer.AddForce(Vector2.up * saltoFuerza, ForceMode2D.Impulse);

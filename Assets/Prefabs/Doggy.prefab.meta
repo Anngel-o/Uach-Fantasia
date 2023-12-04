@@ -1,5 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 25aa4ffa35deeff4d8a3008cb7e8a979
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+guid: 67d82a52f0ccbe54f8a9c0aed7b7a2c3
+=======
+guid: 223d37821a893d64da46ebd7c6cb016c
+>>>>>>> 1eb6b6cd3a93772a2539f388aa6a71162314a412
+=======
+<<<<<<< Updated upstream
+guid: 223d37821a893d64da46ebd7c6cb016c
+=======
+guid: 6aef187925cb26a478e92c39433cf478
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> 88487344228c62817b198beaf264d3a6ad27e655
 PrefabImporter:
   externalObjects: {}
   userData: 

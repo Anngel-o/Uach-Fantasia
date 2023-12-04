@@ -1,5 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fb904d34943c69946aff06abdcddbd2d
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+guid: f1700ddb618bae443b7610d501ecd0ae
+=======
+guid: c6fba8e1c66a5354082e228a3469398a
+>>>>>>> 1eb6b6cd3a93772a2539f388aa6a71162314a412
+=======
+<<<<<<< Updated upstream
+guid: c6fba8e1c66a5354082e228a3469398a
+=======
+guid: 6c67fb683fde10b408b292539642c3ea
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> 88487344228c62817b198beaf264d3a6ad27e655
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

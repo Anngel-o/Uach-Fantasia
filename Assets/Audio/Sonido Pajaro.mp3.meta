@@ -1,5 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 805ff18a8f42e584299cc36c361b979e
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+guid: b5dcf0a7a31b4e24bbf500fe9005cf07
+=======
+guid: a104544c9c686c743bb53d63a002fd46
+>>>>>>> 1eb6b6cd3a93772a2539f388aa6a71162314a412
+=======
+<<<<<<< Updated upstream
+guid: a104544c9c686c743bb53d63a002fd46
+=======
+guid: 011ed2f4c28ee6a47b46e0ee0ebe587f
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> 88487344228c62817b198beaf264d3a6ad27e655
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6

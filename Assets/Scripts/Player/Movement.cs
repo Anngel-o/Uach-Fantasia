@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     public SpriteRenderer PlayerRenderer;
     private BoxCollider2D boxCollider2D;
     public Animator animator;
-
+    public BarHealth barHealth;
 
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
     {
         rbPlayer = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
-        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<Collider2D>());
+        // Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<Collider2D>());
     }
 
     // Update is called once per frame
@@ -64,12 +64,16 @@ public class Movement : MonoBehaviour
        
 
     }
-    private void OnCollisionEnter2D(Collision2D cther)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (cther.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-
+        }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Collision");
+            barHealth.subHealth();
         }
     }
 
@@ -77,6 +81,5 @@ public class Movement : MonoBehaviour
     {
         isGrounded = false;
     }
-
     
 }

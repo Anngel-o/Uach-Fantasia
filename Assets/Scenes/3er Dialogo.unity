@@ -217,16 +217,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 32432504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dde55619b8aa58b40bcc08662c5f5dbb, type: 3}
+  m_Script: {fileID: 11500000, guid: cfa8bd1f350380446ad9bf004eca6281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - 'Virus: Hola Marie!!!'
-  - "Marie:\t:0"
-  - 'Virus: No tenemos ganas de dejarte pasar jejeje'
-  - "Marie: Tengo que llegar a mi ex\xE1men"
-  - 'Virus: Bueno, si logras encontrar el portal correcto, nos volveremos a ver jejejeje'
-  - 'Marie: Portal?'
+  - 'Virus: Me sorprendes Marie'
+  - "Marie: Sal\xED porque ten\xEDa muchas \"conexiones\""
+  - 'VIrus: ...'
+  - 'Marie: ...'
+  - 'Virus: Si bueno, lo prometido es deuda, te acabremos'
   dialoguePanel: {fileID: 1137272359}
   dialogueText: {fileID: 809659570}
 --- !u!1 &161367868

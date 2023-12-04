@@ -14,4 +14,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Frac.unity
     guid: cc6737d44c7b8f34599d5b5f3f3209c9
+  - enabled: 1
+    path: Assets/Scenes/LevelAero.unity
+    guid: 36d4c25f76a1b6f4a8d439f38b327fe6
+  - enabled: 1
+    path: "Assets/Scenes/LevelComputaci\xF3n.unity"
+    guid: 621ddd8ff292b3b4da42fb9f04a5d855
+  - enabled: 1
+    path: Assets/Scenes/LevelEstacio.unity
+    guid: ab7bcf2a04dc2314cbb15a4aec9f4f29
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 2661d4dee3fc1a140bd09cd8bbc8b3eb
+  - enabled: 1
+    path: Assets/Scenes/1er Dialogo.unity
+    guid: 68f139a638203ab44a2297b63c9efa95
+  - enabled: 1
+    path: Assets/Scenes/2do Dialogo.unity
+    guid: 7d8e3fee7bcce5d4b8203d58f69be802
+  - enabled: 1
+    path: Assets/Scenes/3er Dialogo.unity
+    guid: 6184d7673e28cc34d8df28c128491b96
+  - enabled: 1
+    path: Assets/Scenes/4to Dialogo.unity
+    guid: d0666cc74526a0c4eaaedf6cb96742aa
+  - enabled: 1
+    path: Assets/Scenes/5to Dialogo.unity
+    guid: 27368b59b6cd9984b8e61e0836d3f202
   m_configObjects: {}

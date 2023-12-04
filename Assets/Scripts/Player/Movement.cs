@@ -6,7 +6,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     Rigidbody2D rbPlayer;
-    [Range(10, 30)] public int velocidad = 10;
+    [Range(5, 30)] public int velocidad = 10;
     [Range(1, 15)] public float saltoFuerza = 5;
     private bool isGrounded;
     private int jumpsRemaining = 1;

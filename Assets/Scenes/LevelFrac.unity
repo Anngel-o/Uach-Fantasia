@@ -1043,6 +1043,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
   - first: {x: 157, y: 9, z: 0}
     second:
       serializedVersion: 2
@@ -1053,6 +1054,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> Stashed changes
   - first: {x: 30, y: 13, z: 0}
     second:
       serializedVersion: 2
@@ -1456,7 +1459,11 @@ Tilemap:
   m_AnimatedTiles: {}
   m_TileAssetArray:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_RefCount: 52
+=======
+  - m_RefCount: 49
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 49
 >>>>>>> Stashed changes
@@ -1469,7 +1476,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: a2c70c701f3a939498fd03c2866c3eb1, type: 2}
   m_TileSpriteArray:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_RefCount: 52
+=======
+  - m_RefCount: 49
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 49
 >>>>>>> Stashed changes
@@ -1482,7 +1493,11 @@ Tilemap:
     m_Data: {fileID: 448904318, guid: 5bd35c5a6d6be4840a6c3d05dbfc9c26, type: 3}
   m_TileMatrixArray:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_RefCount: 91
+=======
+  - m_RefCount: 80
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 80
 >>>>>>> Stashed changes
@@ -1505,7 +1520,11 @@ Tilemap:
       e33: 1
   m_TileColorArray:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_RefCount: 91
+=======
+  - m_RefCount: 80
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 80
 >>>>>>> Stashed changes
@@ -1592,6 +1611,7 @@ CompositeCollider2D:
         Y: 275000000
       - X: 1515000064
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         Y: 235000000
       - X: 1555000064
         Y: 235000000
@@ -1606,9 +1626,12 @@ CompositeCollider2D:
     - - X: 1235000064
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         Y: 235000000
       - X: 1155000064
         Y: 235000000
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       - X: 1155000064
         Y: 195000000
@@ -1616,11 +1639,16 @@ CompositeCollider2D:
         Y: 195000000
     - - X: 725000000
 =======
+=======
+>>>>>>> Stashed changes
     - - X: 965000000
         Y: 275000000
       - X: 725000000
         Y: 275000000
       - X: 725000000
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         Y: 235000000
       - X: 965000000
@@ -1659,6 +1687,9 @@ CompositeCollider2D:
         Y: 155000000
       - X: 1275000064
         Y: 155000000
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     - - X: 685000000
         Y: 195000000
@@ -2334,8 +2365,13 @@ Transform:
   m_GameObject: {fileID: 1906101998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 87.0271, y: 8.9762, z: 10}
   m_LocalScale: {x: 9.69619, y: 9.930838, z: 9.69619}
+=======
+  m_LocalPosition: {x: 86.2087, y: 11.5589, z: 10}
+  m_LocalScale: {x: 9.775699, y: 10.730773, z: 9.69619}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 86.2087, y: 11.5589, z: 10}
   m_LocalScale: {x: 9.775699, y: 10.730773, z: 9.69619}
@@ -2451,7 +2487,11 @@ Camera:
   field of view: 60
   orthographic: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   orthographic size: 12.790073
+=======
+  orthographic size: 13.315133
+>>>>>>> Stashed changes
 =======
   orthographic size: 13.315133
 >>>>>>> Stashed changes
@@ -2478,9 +2518,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918254573}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.8, y: 14.1, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 0}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.8200002, y: 1.5280001, z: -10}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.8200002, y: 1.5280001, z: -10}

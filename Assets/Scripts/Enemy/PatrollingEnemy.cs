@@ -7,10 +7,12 @@ public class PatrollingEnemy : MonoBehaviour
 
     private int currentPatrolIndex = 0;
     private bool isMovingForward = true;
+    private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -21,24 +23,22 @@ public class PatrollingEnemy : MonoBehaviour
 
     void Patrol()
     {
-
-
- 
         Vector2 target = patrolPoints[currentPatrolIndex].position;
-        transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
-        if (transform.position.x < target.x)
+        Vector2 movement = (target - (Vector2)transform.position).normalized;
+        rb.velocity = new Vector2(movement.x * moveSpeed, rb.velocity.y);
+
+       
+        if (movement.x > 0)
         {
             spriteRenderer.flipX = false;
         }
-        else
+        else if (movement.x < 0)
         {
             spriteRenderer.flipX = true;
         }
 
-
         if (Vector2.Distance(transform.position, target) < 0.1f)
         {
-         
             if (isMovingForward)
             {
                 currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;

@@ -530,6 +530,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a577085241286d14c80c24c6c90de14b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  playerRenderer: {fileID: 1774068550}
+  weaponSpawnL: {fileID: 850840762}
+  weaponSpawnR: {fileID: 0}
+  weaponD: {fileID: 1394787117919273500, guid: f4420a7b6a97b2b41bb97dc2508d5265, type: 3}
+  weaponI: {fileID: 2926853175260048319, guid: e00d17e7328f8904eb03511e7ef89352, type: 3}
+  animator: {fileID: 0}
+  barAttack: {fileID: 0}
+>>>>>>> 93312cc6437a38953cce8dca50e62f4d70896480
 --- !u!114 &1774068547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,6 +552,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfcb22d1fa43d941aad9b8b943d30a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  velocidad: 10
+  saltoFuerza: 5
+  PlayerRenderer: {fileID: 1774068550}
+  animator: {fileID: 0}
+  barHealth: {fileID: 0}
+>>>>>>> 93312cc6437a38953cce8dca50e62f4d70896480
 --- !u!61 &1774068548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -664,6 +682,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1748613922, guid: 1d8429847bfae3a41850d631a9b8c964, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748613930, guid: 1d8429847bfae3a41850d631a9b8c964, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1195912561755820434, guid: 1d8429847bfae3a41850d631a9b8c964, type: 3}
       propertyPath: m_RootOrder
       value: 1

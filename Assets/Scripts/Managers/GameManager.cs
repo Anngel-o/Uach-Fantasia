@@ -23,6 +23,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void addTime() {
+        currentTime+=10.0f;
+        //slider.value+=10.0f;
+    }
+
     private void ChangeCounter() {
         currentTime -= Time.deltaTime;
         if (currentTime >= 0) {

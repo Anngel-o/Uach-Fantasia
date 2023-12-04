@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
     {
         rbPlayer = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
-        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<Collider2D>());
+        // Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<Collider2D>());
     }
 
     // Update is called once per frame
@@ -70,11 +70,11 @@ public class Movement : MonoBehaviour
         {
             isGrounded = true;
         }
-        // if (other.gameObject.CompareTag("Enemy"))
-        // {
-        //     Debug.Log("Collision");
-        //     barHealth.subHealth();
-        // }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Collision");
+            barHealth.subHealth();
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)

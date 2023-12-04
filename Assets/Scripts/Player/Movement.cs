@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     [Range(10, 30)] public int velocidad = 10;
     [Range(1, 15)] public float saltoFuerza = 5;
     private bool isGrounded;
-    private int jumpsRemaining = 2;
+    private int jumpsRemaining = 1;
     public SpriteRenderer PlayerRenderer;
     private BoxCollider2D boxCollider2D;
     public Animator animator;
@@ -21,6 +21,7 @@ public class Movement : MonoBehaviour
     {
         rbPlayer = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
         // Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<Collider2D>());
     }
 
@@ -28,6 +29,8 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float movimiento = Input.GetAxisRaw("Horizontal");
+        animator.SetBool("Walking", movimiento != 0.0f);
+        
         rbPlayer.velocity = new Vector2(movimiento * velocidad, rbPlayer.velocity.y);
         if (movimiento > 0 )
         {
@@ -40,19 +43,19 @@ public class Movement : MonoBehaviour
 
         if (isGrounded)
         {
-            jumpsRemaining = 2;
+            jumpsRemaining = 1;
         }
         if (Input.GetKeyDown(KeyCode.UpArrow) && jumpsRemaining > 0)
         {
             rbPlayer.velocity = new Vector2(rbPlayer.velocity.x, 0);
             rbPlayer.AddForce(Vector2.up * saltoFuerza, ForceMode2D.Impulse);
             jumpsRemaining--;
-            if (jumpsRemaining == 1)
+            if (jumpsRemaining == 0)
             {
                 animator.SetTrigger("Salto");
             }
             
-            else if (jumpsRemaining == 0)
+            else if (jumpsRemaining == -1)
             {
                 animator.SetTrigger("DobleSalto");
             }

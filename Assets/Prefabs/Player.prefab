@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 1195912561755820438}
   - component: {fileID: 1195912561755820432}
   - component: {fileID: 1195912561755820431}
+  - component: {fileID: 1748613922}
+  - component: {fileID: 1748613930}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -156,7 +158,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013609946, y: 0.017201602}
+  m_Offset: {x: -0.016248927, y: 0.0073512793}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -167,7 +169,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 1.0738281, y: 1.4169961}
+  m_Size: {x: 0.9418795, y: 1.2528236}
   m_EdgeRadius: 0
 --- !u!114 &1195912561755820438
 MonoBehaviour:
@@ -185,6 +187,7 @@ MonoBehaviour:
   saltoFuerza: 5
   PlayerRenderer: {fileID: 1195912561755820435}
   animator: {fileID: 1195912561755820431}
+  barHealth: {fileID: 1748613930}
 --- !u!114 &1195912561755820432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +206,7 @@ MonoBehaviour:
   weaponD: {fileID: 1394787117919273500, guid: f4420a7b6a97b2b41bb97dc2508d5265, type: 3}
   weaponI: {fileID: 2926853175260048319, guid: e00d17e7328f8904eb03511e7ef89352, type: 3}
   animator: {fileID: 1195912561755820431}
+  barAttack: {fileID: 1748613922}
 --- !u!95 &1195912561755820431
 Animator:
   serializedVersion: 5
@@ -223,6 +227,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1748613922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195912561755820439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bbd59deb806b247939667cd404f22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barAttack: {fileID: 0}
+  attackCurrent: 100
+  attackMax: 100
+--- !u!114 &1748613930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195912561755820439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc59cbeadd600a4a8cbdc4841637c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barHealth: {fileID: 0}
+  healthCurrent: 100
+  healthMax: 100
 --- !u!1 &1195912563075094145
 GameObject:
   m_ObjectHideFlags: 0

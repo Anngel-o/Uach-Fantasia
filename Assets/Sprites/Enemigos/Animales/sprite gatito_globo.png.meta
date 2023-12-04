@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,9 +101,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite gatito_globo_0
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1273
+        width: 219
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454cc964eae15f2409296e8312f6e09c
+      internalID: 729890795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1282
+        width: 229
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c68357ae533342ae4bbb65446ef13
+      internalID: 355537586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_2
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1291
+        width: 238
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d01f8012048aaa4baa42bc55507e09c
+      internalID: 188841011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_3
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1309
+        width: 228
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d669fef567400384daf2836d74d36c37
+      internalID: 1945073793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_4
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 1300
+        width: 237
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b25a6210044f864593ec9bcd7cbddd8
+      internalID: 1500140763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 691
+        width: 228
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c6b3b5491e1d46b116614f86d293f
+      internalID: 1050032521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 673
+        width: 220
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ac0cb35ffaf0440bf655376dca60d3
+      internalID: 761532988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_7
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 669
+        width: 228
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0faa2f33a9c7604fb2f42b1ba29e817
+      internalID: 1156231948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_8
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 669
+        width: 237
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf546a311e939b4489e39de6121ddf9
+      internalID: -1897705692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_9
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 669
+        width: 228
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9668c34bb7efb1e4cbacfe42cd103696
+      internalID: 1046681790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 68
+        width: 237
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3849dd6cae7bb43855902b8b9739bc
+      internalID: -25552351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite gatito_globo_11
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 73
+        width: 229
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b971788ff0d093b41aaafbe0015805c9
+      internalID: 1349158765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +378,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite gatito_globo_9: 1046681790
+      sprite gatito_globo_0: 729890795
+      sprite gatito_globo_1: 355537586
+      sprite gatito_globo_2: 188841011
+      sprite gatito_globo_3: 1945073793
+      sprite gatito_globo_6: 761532988
+      sprite gatito_globo_4: 1500140763
+      sprite gatito_globo_11: 1349158765
+      sprite gatito_globo_8: -1897705692
+      sprite gatito_globo_10: -25552351
+      sprite gatito_globo_5: 1050032521
+      sprite gatito_globo_7: 1156231948
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

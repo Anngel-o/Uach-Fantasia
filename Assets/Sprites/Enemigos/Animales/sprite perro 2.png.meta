@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -108,10 +120,10 @@ TextureImporter:
       name: sprite perro 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1200
-        width: 600
-        height: 600
+        x: 51
+        y: 1398
+        width: 445
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +141,10 @@ TextureImporter:
       name: sprite perro 1_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1200
-        width: 600
-        height: 600
+        x: 651
+        y: 1398
+        width: 457
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +162,10 @@ TextureImporter:
       name: sprite perro 1_2
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1200
-        width: 600
-        height: 600
+        x: 1224
+        y: 1398
+        width: 498
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +183,10 @@ TextureImporter:
       name: sprite perro 1_3
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1200
-        width: 600
-        height: 600
+        x: 1851
+        y: 1398
+        width: 511
+        height: 271
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +204,10 @@ TextureImporter:
       name: sprite perro 1_4
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1200
-        width: 600
-        height: 600
+        x: 2465
+        y: 1413
+        width: 524
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +225,10 @@ TextureImporter:
       name: sprite perro 1_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 600
-        width: 600
-        height: 600
+        x: 92
+        y: 798
+        width: 443
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +246,10 @@ TextureImporter:
       name: sprite perro 1_6
       rect:
         serializedVersion: 2
-        x: 600
-        y: 600
-        width: 600
-        height: 600
+        x: 651
+        y: 798
+        width: 445
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +267,10 @@ TextureImporter:
       name: sprite perro 1_7
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 600
-        width: 600
-        height: 600
+        x: 1304
+        y: 798
+        width: 405
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +288,10 @@ TextureImporter:
       name: sprite perro 1_8
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 600
-        width: 600
-        height: 600
+        x: 1824
+        y: 798
+        width: 498
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +309,10 @@ TextureImporter:
       name: sprite perro 1_9
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 600
-        width: 600
-        height: 600
+        x: 2451
+        y: 798
+        width: 510
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +330,10 @@ TextureImporter:
       name: sprite perro 1_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 600
+        x: 64
+        y: 212
+        width: 524
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +351,10 @@ TextureImporter:
       name: sprite perro 1_11
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 600
+        x: 691
+        y: 198
+        width: 445
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -108,10 +120,10 @@ TextureImporter:
       name: sprite pajaro1 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 344
-        width: 256
-        height: 256
+        x: 32
+        y: 370
+        width: 184
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +141,10 @@ TextureImporter:
       name: sprite pajaro1 1_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 344
-        width: 256
-        height: 256
+        x: 332
+        y: 379
+        width: 189
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +162,10 @@ TextureImporter:
       name: sprite pajaro1 1_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 344
-        width: 256
-        height: 256
+        x: 675
+        y: 346
+        width: 183
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,7 +188,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,10 +204,10 @@ TextureImporter:
       name: sprite pajaro1 1_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 344
-        width: 256
-        height: 256
+        x: 975
+        y: 342
+        width: 193
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +225,10 @@ TextureImporter:
       name: sprite pajaro1 1_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 88
-        width: 256
-        height: 256
+        x: 28
+        y: 75
+        width: 188
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,7 +251,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,6 +259,27 @@ TextureImporter:
       bones: []
       spriteID: 108e7b29176bbf4468884f98b3d0e476
       internalID: -1703468295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajaro1 1_7
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 375
+        width: 156
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bf01bef14e7464fa318845c37cb035
+      internalID: -495534187
       vertices: []
       indices: 
       edges: []
@@ -266,6 +299,7 @@ TextureImporter:
       sprite pajaro1 1_5: 319202584
       sprite pajaro1 1_6: -1703468295
       sprite pajaro1 1_3: 539310712
+      sprite pajaro1 1_7: -495534187
       sprite pajaro1 1_4: -1728835929
       sprite pajaro1 1_2: -1047545122
       sprite pajaro1 1_0: -1732684742

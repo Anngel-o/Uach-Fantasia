@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     public SpriteRenderer PlayerRenderer;
     private BoxCollider2D boxCollider2D;
     public Animator animator;
-
+    public BarHealth barHealth;
 
 
     // Start is called before the first frame update
@@ -64,19 +64,22 @@ public class Movement : MonoBehaviour
        
 
     }
-    private void OnCollisionEnter2D(Collision2D cther)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (cther.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-
         }
+        // if (other.gameObject.CompareTag("Enemy"))
+        // {
+        //     Debug.Log("Collision");
+        //     barHealth.subHealth();
+        // }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
     }
-
     
 }

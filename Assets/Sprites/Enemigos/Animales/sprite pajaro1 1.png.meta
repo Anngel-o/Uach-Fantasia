@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 171ab404f52939a40af41ccb6f5d0656
+guid: 5aeb32546cea14940b783894b3ed171d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 170
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hoja_Reposo_0
+      name: sprite pajaro1 1_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 175
-        width: 146
-        height: 228
+        x: 0
+        y: 344
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e945b5937b9e1894eaf494513ce60e33
-      internalID: 1161281268
+      spriteID: fb63a85273a8bdb43a75dd0a11f6d4ea
+      internalID: -1732684742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoja_Reposo_1
+      name: sprite pajaro1 1_1
       rect:
         serializedVersion: 2
-        x: 285
-        y: 182
-        width: 147
-        height: 211
+        x: 256
+        y: 344
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +140,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ea057fa372cc4740a5af378034b6121
-      internalID: 1425055026
+      spriteID: 0b7dfd4e4a763d54c921361ed7d4013b
+      internalID: 146167685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajaro1 1_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 344
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db17a654a59db24a922e84751cc0039
+      internalID: -1047545122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajaro1 1_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 344
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1864b83d9a1d64fae4851282e4f12b
+      internalID: 539310712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajaro1 1_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 344
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8711e67bbc944a442b6e1c536e33a7b8
+      internalID: -1728835929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajaro1 1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0945947991f1d4d8d1d1b13f68918e
+      internalID: 319202584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajaro1 1_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 88
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108e7b29176bbf4468884f98b3d0e476
+      internalID: -1703468295
       vertices: []
       indices: 
       edges: []
@@ -169,8 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hoja_Reposo_1: 1425055026
-      Hoja_Reposo_0: 1161281268
+      sprite pajaro1 1_1: 146167685
+      sprite pajaro1 1_5: 319202584
+      sprite pajaro1 1_6: -1703468295
+      sprite pajaro1 1_3: 539310712
+      sprite pajaro1 1_4: -1728835929
+      sprite pajaro1 1_2: -1047545122
+      sprite pajaro1 1_0: -1732684742
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

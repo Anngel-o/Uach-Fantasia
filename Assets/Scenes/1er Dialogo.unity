@@ -173,6 +173,8 @@ MonoBehaviour:
   - Marie Curie es muy madrugadora...
   - "Marie Curie tiene un ex\xE1men a las 7:00 am"
   - :0
+  dialoguePanel: {fileID: 1137272359}
+  dialogueText: {fileID: 809659570}
 --- !u!212 &32432507
 SpriteRenderer:
   m_ObjectHideFlags: 0

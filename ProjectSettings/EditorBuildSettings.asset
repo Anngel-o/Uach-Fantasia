@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Introduction.unity
     guid: f835a034bcf50924591f4f766479a130
+  - enabled: 1
+    path: Assets/Scenes/Frac.unity
+    guid: cc6737d44c7b8f34599d5b5f3f3209c9
   m_configObjects: {}

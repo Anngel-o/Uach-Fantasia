@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -13,6 +14,14 @@ guid: ab60c115477b88041a31bcf73dfdb192
 =======
 guid: aac2de71149554d45a4764070b63f1d6
 >>>>>>> b3f698e24968c8210f91bba721f87d624b2afdd2
+=======
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 181ab66ee95f5b84a872147c42aca76a
+=======
+guid: aac2de71149554d45a4764070b63f1d6
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,16 +55,36 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 0
+=======
+<<<<<<< HEAD
+    filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
+<<<<<<< HEAD
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+=======
+<<<<<<< HEAD
+    wrapW: 1
+=======
+    wrapW: 0
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,7 +95,11 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
+<<<<<<< HEAD
   textureType: 2
+=======
+  textureType: 8
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,15 +108,33 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
+<<<<<<< HEAD
   applyGammaDecoding: 1
   cookieLightType: 2
+=======
+<<<<<<< HEAD
+  applyGammaDecoding: 0
+  cookieLightType: 0
+=======
+  applyGammaDecoding: 1
+  cookieLightType: 2
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +146,15 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,7 +166,15 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,7 +187,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511
     internalID: 0
     vertices: []
     indices: 
@@ -134,6 +205,7 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 =======
 fileFormatVersion: 2
 guid: aac2de71149554d45a4764070b63f1d6
@@ -259,3 +331,5 @@ TextureImporter:
   assetBundleName: 
   assetBundleVariant: 
 >>>>>>> 2bd5de8c01cd5540eac72ae74a6a2cf4c208e1fb
+=======
+>>>>>>> 8078608461694b61d8115f82686c8c6dd9b44511

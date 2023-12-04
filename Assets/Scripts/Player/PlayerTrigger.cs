@@ -13,6 +13,7 @@ public class PlayerTrigger : MonoBehaviour
     public GameObject weaponI;
     float horizontalInput = -1;
     public Animator animator;
+    public BarAttack barAttack;
 
     private void Update()
     {
@@ -28,8 +29,9 @@ public class PlayerTrigger : MonoBehaviour
                 
    
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && barAttack.CurrentAttack > 0.0f)
         {
+            barAttack.subAttack();
             FireBullet(horizontalInput);
         }
 

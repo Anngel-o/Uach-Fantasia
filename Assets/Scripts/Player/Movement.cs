@@ -28,6 +28,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float movimiento = Input.GetAxisRaw("Horizontal");
+        animator.SetBool("Walk", movimiento != 0.0f);
         rbPlayer.velocity = new Vector2(movimiento * velocidad, rbPlayer.velocity.y);
         if (movimiento > 0 )
         {
@@ -68,6 +69,7 @@ public class Movement : MonoBehaviour
     {
         if (cther.gameObject.CompareTag("Ground"))
         {
+            // Debug.Log("Colisión con Ground");
             isGrounded = true;
 
         }

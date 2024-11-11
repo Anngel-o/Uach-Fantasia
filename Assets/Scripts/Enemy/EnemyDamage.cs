@@ -13,8 +13,6 @@ public class EnemyDamage : MonoBehaviour
         if (vida <= 0)
         {
             Muerte();
-
-
         }
     }
 
